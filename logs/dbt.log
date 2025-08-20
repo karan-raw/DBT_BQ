@@ -712,3 +712,70 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m16:41:55.925536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E03E64FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E0A875010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E0A874790>]}
 [0m16:41:55.927535 [debug] [MainThread]: Flushing usage events
 [0m16:41:57.334002 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:42:52.229340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C1D4A4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C1CD68D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C0D18C90>]}
+
+
+============================== 16:42:52.246306 | 90fbce6a-6205-445a-9683-087fd4752e41 ==============================
+[0m16:42:52.246306 [info ] [MainThread]: Running with dbt=1.10.9
+[0m16:42:52.250288 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_BQ\\logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_BQ'}
+[0m16:43:05.163847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DE9D1390>]}
+[0m16:43:05.329579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8BE6F0290>]}
+[0m16:43:05.333568 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m16:43:07.171704 [debug] [MainThread]: checksum: 6543b8b248ceda473ef0d611849d5d909085b6b714afa9b515e9635faea7af23, vars: {}, profile: , target: , version: 1.10.9
+[0m16:43:07.718748 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:43:07.720733 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:43:07.793796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DEE85450>]}
+[0m16:43:08.116193 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_BQ\target\manifest.json
+[0m16:43:08.133133 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_BQ\target\semantic_manifest.json
+[0m16:43:08.338157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DEF144D0>]}
+[0m16:43:08.341162 [info ] [MainThread]: Found 1 model, 496 macros
+[0m16:43:08.345157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DEEF88D0>]}
+[0m16:43:08.353151 [info ] [MainThread]: 
+[0m16:43:08.373253 [info ] [MainThread]: Concurrency: 4 threads (target='test')
+[0m16:43:08.378249 [info ] [MainThread]: 
+[0m16:43:08.386246 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m16:43:08.393244 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_datachannel-237710'
+[0m16:43:08.395254 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:43:11.250011 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_datachannel-237710_28_Dc_004'
+[0m16:43:11.254038 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:43:13.848774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DEB03F90>]}
+[0m16:43:13.851110 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:43:13.871234 [debug] [Thread-1 (]: Began running node model.DBT_DLM_BQ.model1
+[0m16:43:13.873234 [info ] [Thread-1 (]: 1 of 1 START sql view model 28_Dc_004.model1 ................................... [RUN]
+[0m16:43:13.877224 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.DBT_DLM_BQ.model1'
+[0m16:43:13.879319 [debug] [Thread-1 (]: Began compiling node model.DBT_DLM_BQ.model1
+[0m16:43:13.917798 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_DLM_BQ.model1"
+[0m16:43:13.933171 [debug] [Thread-1 (]: Began executing node model.DBT_DLM_BQ.model1
+[0m16:43:14.031915 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_DLM_BQ.model1"
+[0m16:43:14.043287 [debug] [Thread-1 (]: On model.DBT_DLM_BQ.model1: /* {"app": "dbt", "dbt_version": "1.10.9", "profile_name": "bigquery", "target_name": "test", "node_id": "model.DBT_DLM_BQ.model1"} */
+
+
+  create or replace view `datachannel-237710`.`28_Dc_004`.`model1`
+  OPTIONS()
+  as SELECT delivered_utc, date, report_execution_id, metro, ad_group_id, impressions FROM `datachannel-237710.28_Dc_004.td_jump_dma_last_14_days`;
+
+
+[0m16:43:14.045365 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m16:43:17.407103 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=datachannel-237710&j=bq:US:87e1642e-f47f-4cef-bdc9-fb1783673ee2&page=queryresults
+[0m16:43:18.575669 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '90fbce6a-6205-445a-9683-087fd4752e41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DEA5EE50>]}
+[0m16:43:18.577669 [info ] [Thread-1 (]: 1 of 1 OK created sql view model 28_Dc_004.model1 .............................. [[32mCREATE VIEW (0 processed)[0m in 4.70s]
+[0m16:43:18.580678 [debug] [Thread-1 (]: Finished running node model.DBT_DLM_BQ.model1
+[0m16:43:18.584100 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:43:18.589112 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:43:18.592126 [debug] [MainThread]: Connection 'list_datachannel-237710' was properly closed.
+[0m16:43:18.594118 [debug] [MainThread]: Connection 'list_datachannel-237710_28_Dc_004' was properly closed.
+[0m16:43:18.596124 [debug] [MainThread]: Connection 'model.DBT_DLM_BQ.model1' was properly closed.
+[0m16:43:18.598119 [info ] [MainThread]: 
+[0m16:43:18.601123 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 10.21 seconds (10.21s).
+[0m16:43:18.607212 [debug] [MainThread]: Command end result
+[0m16:43:18.728234 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_BQ\target\manifest.json
+[0m16:43:18.741999 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_BQ\target\semantic_manifest.json
+[0m16:43:18.782483 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Employee\Documents\DBT_BQ\target\run_results.json
+[0m16:43:18.784473 [info ] [MainThread]: 
+[0m16:43:18.786474 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:43:18.788470 [info ] [MainThread]: 
+[0m16:43:18.790492 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m16:43:18.795660 [debug] [MainThread]: Command `dbt run` succeeded at 16:43:18.795660 after 26.72 seconds
+[0m16:43:18.797656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C1D543D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8BEBDE4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8BB05A290>]}
+[0m16:43:18.799682 [debug] [MainThread]: Flushing usage events
+[0m16:43:20.557859 [debug] [MainThread]: An error was encountered while trying to flush usage events

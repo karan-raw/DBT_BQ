@@ -1,4 +1,4 @@
-bigquery:
+default:
   target: test
   outputs:
     test:
