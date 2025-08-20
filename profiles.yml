@@ -1,7 +1,7 @@
 bigquery:
-  target: dev
+  target: test
   outputs:
-    dev:
+    test:
       type: bigquery
       method: service-account
       project: datachannel-237710
@@ -10,4 +10,4 @@ bigquery:
       timeout_seconds: 300
       location: US
       priority: interactive
-      keyfile: C:\Users\Employee\Downloads\datachannel-237710-3d7482e2b571 (1).jsondbt 
+      keyfile: C:\Users\Employee\Downloads\datachannel-237710-3d7482e2b571 (1).json
