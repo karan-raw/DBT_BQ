@@ -1,0 +1,7 @@
+name: 'DBT_DLM_BQ'
+
+version: '1.8.7'
+
+config-version: 2
+
+profile: 'bigquery'

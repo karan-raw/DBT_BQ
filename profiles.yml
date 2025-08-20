@@ -1,0 +1,13 @@
+bigquery:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: datachannel-237710
+      dataset: 28_Dc_004
+      threads: 4
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+      keyfile: C:\Users\Employee\Downloads\datachannel-237710-3d7482e2b571 (1).jsondbt 
